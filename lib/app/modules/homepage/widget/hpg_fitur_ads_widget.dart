@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 
 import '../../../values/colors.dart';
 import 'hpg_tittle_caption_widget.dart';
-import 'hpg_tittle_heading2_widget.dart';
 import 'hpg_tittle_heading3_widget.dart';
 
 class HPGFiturAdsWidget extends StatelessWidget {

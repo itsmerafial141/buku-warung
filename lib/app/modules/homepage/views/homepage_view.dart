@@ -20,6 +20,7 @@ import '../widget/hpg_tittle_heading2_widget.dart';
 class HomepageView extends GetView<HomepageController> {
   @override
   Widget build(BuildContext context) {
+    var controller = Get.put(HomepageController());
     return Scaffold(
       backgroundColor: MyColors.white,
       appBar: appBarHomepage(),

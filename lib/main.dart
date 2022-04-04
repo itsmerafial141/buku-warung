@@ -18,7 +18,7 @@ void main() {
       ),
       child: GetMaterialApp(
         title: "Application",
-        initialRoute: AppPages.INITIAL_HP,
+        initialRoute: AppPages.INITIAL_NV,
         getPages: AppPages.routes,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(

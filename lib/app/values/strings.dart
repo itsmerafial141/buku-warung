@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class MyStrings {
   //Homepage
   static List listPaymentImageHomapage = [
@@ -55,5 +57,22 @@ class MyStrings {
     "assets/icons/invoicess.png",
     "assets/icons/id-card.png",
     "assets/icons/menu.png",
+  ];
+
+  // Navigation
+  static List listNavigationTab = [
+    "Home",
+    "Utang",
+    "Pembayaran",
+    "Transaksi",
+    "Lainnya",
+  ];
+
+  static List listNavigationTabImage = [
+    Icons.home_rounded,
+    Icons.contacts_rounded,
+    Icons.account_balance_wallet_rounded,
+    Icons.recycling_rounded,
+    Icons.tab_rounded,
   ];
 }

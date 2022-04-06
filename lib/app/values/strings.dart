@@ -1,3 +1,4 @@
+import 'package:buku_warung/app/modules/navigation/widgets/nvg_navigation_item_widget.dart';
 import 'package:flutter/material.dart';
 
 class MyStrings {
@@ -72,7 +73,15 @@ class MyStrings {
     Icons.home_rounded,
     Icons.contacts_rounded,
     Icons.account_balance_wallet_rounded,
-    Icons.recycling_rounded,
+    Icons.refresh_rounded,
     Icons.tab_rounded,
+  ];
+
+  static List listNavigationItem = [
+    NavigationItemWidget(nav1: 0),
+    NavigationItemWidget(nav1:1),
+    NavigationItemWidget(nav1: 2),
+    NavigationItemWidget(nav1: 3),
+    NavigationItemWidget(nav1: 4),
   ];
 }

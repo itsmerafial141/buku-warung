@@ -40,7 +40,14 @@ class HomepageView extends GetView<HomepageController> {
           ),
           HPGSaldoWidget(),
           SizedBox(
-            height: 40,
+            height: 20,
+          ),
+          Container(
+            height: 1,
+            color: Colors.black26,
+          ),
+          SizedBox(
+            height: 20,
           ),
           HPGTittleHeading2(
             tittle: "Tambah Penghasilan Jual Pulsa & Tagihan 😎",

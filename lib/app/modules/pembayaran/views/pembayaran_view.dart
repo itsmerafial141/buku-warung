@@ -7,7 +7,7 @@ import '../controllers/pembayaran_controller.dart';
 class PembayaranView extends GetView<PembayaranController> {
   @override
   Widget build(BuildContext context) {
-    var controller
+    // var controller
     return Scaffold(
       appBar: AppBar(
         title: Text('PembayaranView'),
